@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - lets learn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="name" pattern=""><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Gender -->
+        <div>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+        </div>
+
+        <!-- Interests -->
+        <label for="interests">Interests:</label><br>
+        <input type="checkbox" id="coding" name="interests" value="coding" >
+        <label for="coding">Coding</label><br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">--Select--</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <!-- Message -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+        <!-- Submit -->
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+    <link rel="stylesheet" href="script.js">
+</body>
+
+</html>
