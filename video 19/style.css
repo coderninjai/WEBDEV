@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+
+p {
+    font-family: "Bitcount Prop Single Ink", system-ui;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    line-height:0.8;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: rgb(27, 78, 123) ;
+    text-decoration-style: dotted   ;
+    text-decoration-thickness:3px;
+    text-overflow: ellipsis;
+}
+
+.lorem{
+    border: 2px solid red;
+    width: 123px;
+    /* word-break: break-all; */
+    text-overflow: ellipsis;
+}
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
