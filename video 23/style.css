@@ -1,2 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
 
-
+.box{
+    display: inline-block;
+    border: 2px solid blue;
+    width: 344px;
+    padding: 44px;
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+}
+/* .box1{ 
+    visibility: hidden 
+ display: none; 
+    ;
+} */
