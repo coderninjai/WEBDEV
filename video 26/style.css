@@ -1,0 +1,9 @@
+
+.boc {
+    border: 2px solid black;
+    height: 40vh;
+    width: 30vw;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
