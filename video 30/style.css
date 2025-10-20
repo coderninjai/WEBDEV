@@ -1,0 +1,30 @@
+*{
+    margin: 0;padding: 0;
+}
+.nav{
+    background-color:var(--color) ;
+}
+
+.container{
+    background-color: red;
+}
+
+ul{
+display: flex;
+}
+
+ul li:first-child{
+    --color:orange;
+    background-color: var(--color );
+    opacity: var(--defop);
+}
+ul li{
+    list-style: none;
+}
+
+:root{
+    --color:blue;
+    --seccolor:red;
+    --defpad:22px;
+    --defop:0.2;
+}
