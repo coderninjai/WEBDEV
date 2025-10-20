@@ -1,2 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.parent{
+    /* transform,filter, or perspective properties can also make an element appear as positioned */
+    padding: 43px;
+    margin: 43px;
 
+    border: 2px solid black;
+}
+
+.box {
+    height: 433px;
+    width: 80vw;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid black;
+}
+
+.box1 {
+    background-color: aqua;
+      position: sticky;
+    height: 110 px;
+    width: 100%;
+    margin: 0;padding: 0;
+    top: 0;
+    /* position: relative; */
+    /* z-index: 1;
+    left: 42px;
+    top: 42px; */
+}
+
+.box2 {
+    background-color: rgb(71, 49, 31);
+     
+}
+
+.box3 {
+    background-color: rgb(26, 64, 64);
+    /* position: fixed;
+    bottom: 0;
+    left: 8vw;
+    height: 110px; */
+}
+
+.box4 {
+    background-color: rgb(199, 23, 187);
+  
+}
