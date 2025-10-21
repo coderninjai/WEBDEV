@@ -1,0 +1,43 @@
+/* 
+.box:first-child{
+    background-color: red;
+}
+
+.box::first-line{
+    color: yellow;
+} */
+/* 
+.boxes *{
+    color: blue;
+    border: 2px solid black;
+}
+
+[data-color="primary"]{
+    padding-top: 45px;
+} */
+
+/* .box:nth-child(even){
+    background-color: green;
+} */
+
+.box:nth-last-child(1){
+    background-color: rgb(137, 18, 255);
+}
+
+.boxes::after{
+    content: "sigma course is very good ";
+}
+
+.boxes::selection{
+    color: aliceblue;
+background-color: black;
+}
+
+.box::first-letter{
+color: brown;
+font-size: 34px;
+}
+
+input::placeholder{
+color:rgb(154, 154, 180);
+}
