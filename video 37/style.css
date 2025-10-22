@@ -1,2 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 23px
+    
+}
+
+footer{
+border: 3px solid rgb(193, 175, 175);
+display: flex;
+padding: 20px 2px;
+background-color: black;
+color: white;
+}
+
+nav{  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;      
+  background-color: #333;
+  color: white;
+  
+  padding: 10px 20px;
+  box-sizing: border-box;  
+  z-index: 1000;}
+
+.box {
+    display: flex;
+    background-color: blue;
+    padding: 30px;
+    border: 3px solid black;
+}
+
+.boxes {
+    background-color: rgb(255, 151, 151);
+    display: inline;
+    color: white;
+    width: 1000px;
+    height: 900px;
+    border: 50px solid rgb(78, 212, 52);
+}
 
 
+
+.space{
+    padding: 30px 0;
+    border: 5px solid red;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.site-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: auto;
+    z-index: 9999;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.site-logo:hover {
+    opacity: 1;
+    cursor: pointer;
+}
