@@ -1,0 +1,21 @@
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+img{
+    padding: 0px 250px;
+    
+}
+
+.translate{
+    padding: 9px 3px ;
+}
+
+ul li{
+    padding: 18px 6px;
+    list-style: none;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
