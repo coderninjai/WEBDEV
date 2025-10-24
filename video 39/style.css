@@ -1,8 +1,16 @@
 .container{
+    width: 80vw;
+    height: 100vh;
     border: 2px solid yellow;
     display: grid;
-    grid-template-columns:[f1]120px [f2]20px;
+    /* grid-template-columns:[f1]120px [f2]20px; */
     grid-template-rows:100px 100px 100px;
+    /* grid-template-columns:1fr 1fr 1fr; */
+    column-gap: 44px;
+    row-gap: 10px;
+    grid-template-columns: repeat(4,minmax(100px,1fr ));
+    justify-items: center;
+
 }
 
 .item{
@@ -12,6 +20,8 @@
 }
 
 .item4{
+    justify-self:end;
+    background-color: #c93939;
     grid-row: 1;
     grid-column: f1/2;
 }
