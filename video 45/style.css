@@ -1,0 +1,22 @@
+
+
+.container{
+width: 50vw;
+height: 40vh;
+background-color: red;
+}
+
+.translate{
+    transform: translateX(10vw) translateY(10vh);
+}
+.box{
+width: 5vw;
+height: 5vh;
+background-color: rebeccapurple;
+/* transition-property: transform  all color;
+transition-duration:3s ;
+transition-timing-function:ease-in-out ;
+transition-delay: 1s; */
+
+transition: all 3s ease-in-out 1s;
+}
