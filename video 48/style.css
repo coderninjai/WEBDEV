@@ -1,0 +1,52 @@
+.container {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    position: relative;
+    animation: bounce 2s cubic-bezier(0.25, 0.1, 0.25, 1) infinite;
+
+}
+
+/* @keyframes bounce {
+    0% {
+        transform: translateY(0) scaleY(1);
+    }
+
+    60% {
+        transform: translateY(82vh) scaleY(0.95);
+    }
+    75% {
+        transform: translateY(82vh);
+    }
+
+    90% {
+        transform: translateY(82vh);
+    }
+
+    99% {
+        transform: translateY(82vh);
+    }
+    100% {
+        transform: translateY(80vh);
+    }
+} */
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0) scaleY(1);
+      animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+    }
+
+    50% {
+      transform: translateY(82vh) scaleY(0.9);
+      animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+    }
+  }
