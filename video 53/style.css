@@ -1,2 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: black;
+}
+*{
+    padding: 0;margin: 0;
+}
+
+.main{
+    background-image: url(assets/bg.jpg);
+    height:70vh;
+    background-repeat: no-repeat;
+    background-size:max(100vw,1000px) ;
+    background-position: center center;
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    max-width: 60vw;
+    height: 62px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 114px;
+    color: red;
+    z-index: 10;
+    position: relative;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: "Martel Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+   height: calc(100% - 121px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+    gap: 1px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.hero >:first-child{
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero >:nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.separation{
+    width: 100%;
+    height: 4px;
+    background-color: #595757;
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
 
 
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+}
+
+.btn-red-sm{
+background-color: red;
+color: white;
+}
