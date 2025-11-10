@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            width: 80vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: 0;
+            gap: 12px;
+            background-color: rgb(38, 38, 38);
+        }
+
+        .box {
+            display: flex;
+            border: 2px solid rgb(45, 45, 45);
+            border-radius: 16px;
+            width: 70vw;
+            height: 20vh;
+            padding: 0;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.903);
+            color: white;
+        }
+
+        .thumb {
+            position: relative;
+            display: inline-block;
+        }
+
+        .time {
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 3px 6px;
+            border-radius: 5px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        #title {
+            padding: 9px 0;
+            font-size: 25px;
+        }
+
+        .box img {
+            width: 17vw;
+            height: 20vh;
+            border-radius: 15px;
+            padding: 0;
+        }
+
+        span {
+            display: block;
+        }
+
+        .none {
+            display: flex;
+            color: white;
+            font-size: smaller;
+            font-weight:lighter;
+            opacity: 0.59;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            padding-left: 15px;
+            gap: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="thumb">
+                <img src="hitler.png" alt="">
+                <span class="time">12:34</span>
+            </div>
+
+            <div class="info">
+                <span id="title">Introduction to Backend | Sigma Web Dev video #2</span>
+                <div class="none">
+                    <span>CodeWithHarry </span>
+                    <span>. 756k views</span>
+                    <span> . 5 months ago</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
