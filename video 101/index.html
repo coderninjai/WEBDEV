@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twiter-x</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    </style>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white ">
+
+    <div class=" flex container mx-auto">
+        <div class="first w-[70%]">
+            <div class="logo flex items-center justify-start px-5">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi  bi-twitter-x" viewBox="0 0 16 16">
+                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                </svg>
+            </div>
+
+            <div class="sidebar">
+                <ul class="flex flex-col space-y-5 text-xl">
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl"> home</span>Home
+                    </li>
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl">search</span> Explore
+                    </li>
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl">notifications</span> Notifications
+                    </li>
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl">drafts</span>Messages
+                    </li>
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl">robot</span> Grok
+                    </li>
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl">list_alt</span>Lists
+                    </li>
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl">bookmark</span>Bookmarks
+                    </li>
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl"> diversity_1</span>Communities
+                    </li>
+
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi  bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                            </svg>
+                        </div>
+                        <div>Premium</div>
+                    </li>
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl">person</span>Profile
+                    </li>
+                    <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer px-5 py-3 hover:rounded-full ">
+                        <span class="material-symbols-outlined text-3xl">more</span>More
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="second border border-white border-y-black w-full">
+            <div class="top flex  p-3 relative">
+                <div class="absolute  h-1 bg-blue-500 w-14 bottom-0 left-[19%]  z-10"></div>
+                <div class="left w-1/2 text-lg flex justify-center">For you</div>
+                <div class="right flex justify-center  text-lg w-1/2">Following</div>
+                <div class="setting mx-3"><span class="material-symbols-outlined">settings_panorama</span></div>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+            <div class="what my-3 gap-4 flex">
+                <div class="img">
+                    <img src="" alt="">
+                </div>
+                <div class="gap-4 items-center">
+                    <div class="items-center">
+
+                        <input type="text " class="w-full text-xl py-3  bg-black outline-none mx-3 text-white px-4  " placeholder="What is happening ?">
+                    </div>
+                    <div class="text-blue-600 mx-9 py-0 flex items-center gap-3">
+                        <span class="material-symbols-outlined text-blue-500 ">globe_uk</span>
+                        <span>Everyone can reply</span>
+
+                    </div>
+                    <div class="w-[90%] h-[0.2px] bg-gray-700 mx-8 my-3"></div>
+                </div>
+
+            </div>
+            <div class="blueicons mx-12 flex gap-2 text-blue-400 items-center">
+                <span class="material-symbols-outlined cursor-pointer">
+                    image
+                </span>
+                <span class="material-symbols-outlined cursor-pointer">
+                    gif
+                </span>
+                <span class="material-symbols-outlined cursor-pointer">
+                    ballot
+                </span>
+                <span class="material-symbols-outlined cursor-pointer">
+                    sentiment_satisfied
+                </span>
+                <span class="material-symbols-outlined cursor-pointer">
+                    calendar_month
+                </span>
+                <span class="material-symbols-outlined cursor-pointer">
+                    pin_drop
+                </span>
+            </div>
+            <div class="h-[1px] w-full bg-gray-700"></div>
+
+            <div class="posts">
+                <div class="post border-[1px] border-y-gray-600 border-x-0  ">
+                    <div class="flex">
+                        <div class="image m-4">
+                            <img class="w-16" src="https://pbs.twimg.com/profile_images/1697299503198646273/GTnwCVUC_x96.jpg" alt="">
+                        </div>
+                        <div class="content my-3">
+                            <span class="font-bold hover:underline cursor-pointer text-white">Elon Musk</span> <span class="text-gray-500">@ElonMusk · 6h </span>
+                            <div class="postimg m-2 ml-0"> I spent $44 billion for this app and now Lizard boy just decided to hit copy and paste. It’s personal now. See you in the cage, Zuck.
+                            </div>
+                            <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                                <div class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        chat_bubble
+                                    </span> 1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span> 1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        Favorite
+                                    </span> 1k
+                                </div>
+                                <div class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span> 1k
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+
+        </div>
+
+        <div class="third  w-full">
+
+            <div class="search m-3">
+                <input type="text" class="w-1/2 border rounded-full bg-gray-900 text-white px-4 py-2" placeholder="Search">
+            </div>
+
+            <div class="whats w-1/2 m-3 px-3 bg-[#16181c] py-5 rounded-xl">
+                <h1 class="text-xl px-3 font-bold">Whats happening</h1>
+
+                <div class="item   p-3 hover:bg-gray-800 cursor-pointer px-3 ">
+                    <div class=" text-sm text-gray-200">
+                        Trending in India
+                    </div>
+                    <div class="font-bold">#Aravali</div>
+                    <div class=" text-sm text-gray-200">40.2k Posts</div>
+                </div>
+
+
+                <div class="item   p-3 hover:bg-gray-800 cursor-pointer px-3 ">
+                    <div class=" text-sm text-gray-200">
+                        Trending in India
+                    </div>
+                    <div class="font-bold">#Ronaldo</div>
+                    <div class=" text-sm text-gray-200">40.2k Posts</div>
+                </div>
+
+
+                <div class="item   p-3 hover:bg-gray-800 cursor-pointer px-3 ">
+                    <div class=" text-sm text-gray-200">
+                        Trending in India
+                    </div>
+                    <div class="font-bold">#messi</div>
+                    <div class=" text-sm text-gray-200">40.2k Posts</div>
+                </div>
+
+
+                <div class="item   p-3 hover:bg-gray-800 cursor-pointer px-3 ">
+                    <div class=" text-sm text-gray-200">
+                        Trending in India
+                    </div>
+                    <div class="font-bold">#modi</div>
+                    <div class=" text-sm text-gray-200">40.2k Posts</div>
+                </div>
+
+
+
+            </div>
+            <div class="who w-1/2 m-3 px-3 bg-[#16181c] py-5 rounded-xl">
+                <h1 class="text-xl px-3 font-bold">Whom to follow</h1>
+
+                <div class="item   p-3 space-y-4
+                 cursor-pointer px-3 ">
+                    <div class=" font-bold text-gray-200">
+                        codewithharry
+                    </div>
+                    <div class=" font-bold text-gray-200">Messi</div>
+                    <div class=" font-bold text-gray-200">Ronaldo</div>
+                </div>
+
+
+
+                <div class="text-blue-600 underline px-3">Show more</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
