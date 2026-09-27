@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en"
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width,initial-scale=1.0" >
+<title>Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+        <section id="first">
+            <h1>Home</h1>
+            <div id="Scoreboard-first" class="scoreboard">0</div>
+                <div class="score-add">
+                <div id="first-first" onclick="home(event)">+1</div>
+                <div id="second-first" onclick="home(event)">+2</div>
+                <div id="third-first" onclick="home(event)">+3</div>
+                </div>
+        </section>
+
+        <section id="second">
+            <h1>Guest</h1>
+            <div id="scoreboard-second" class="scoreboard">0</div>
+           <div class="score-add">
+            <div id="first-second" onclick="guest(event)">+1</div>
+            <div id="second-second" onclick="guest(event)">+2</div>
+            <div id="third-second" onclick="guest(event)">+3</div>
+            </div>
+        </section>
+        <button id="reset" onclick="reload()">click to reset</button>   
+    </div>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
+

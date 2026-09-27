@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "CyberTime";
+    src: url("./fonts/cyber-digital-font/CyberDigital-KVgED.otf");
+}
+
+
+
+html,body{
+    height: 100%;
+    margin: 0;
+    background-color: aqua;
+}
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+h1{
+   margin: 0;
+    padding:0 0 0 62px ;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.scoreboard{
+    display: flex;
+    font-family: "cyberTime",sans-serif;
+    font-size: 70px;
+    border-radius: 10px;
+    background-color: rgb(26, 26, 26);
+    color: rgb(184, 169, 169);
+    width: 15vw;
+    height: 50%;
+    justify-content: center;
+    align-items: center ;
+}
+
+.score-add{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 22px;
+}
+
+.score-add div{
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: "CyberTime",sans-serif;
+    padding: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#reset{
+    top:50%;
+    position: fixed;
+}
