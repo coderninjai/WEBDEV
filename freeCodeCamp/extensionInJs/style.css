@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding:10px;
+    min-width: 400px;
+}
+
+input{
+width: 100%;
+box-sizing: border-box;
+padding-bottom: 10px;
+}
+
+button{
+/* display: block; */
+margin-top: 10px;
+background-color: rgb(205, 74, 74);
+color: white;
+padding: 12px 33px 12px 33px ;
+border: none;
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    
+    color:green;
+}
+
+#delete-btn{
+    color:green;
+    background-color: white;
+    border: 2px solid green;
+}
