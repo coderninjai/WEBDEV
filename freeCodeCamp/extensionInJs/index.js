@@ -9,6 +9,7 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 const deEl = document.getElementById("delete-btn")
+const tabBtn=document.getElementById("tab-btn")
 
 deEl.addEventListener("dblclick", function () {
     localStorage.clear()
@@ -17,6 +18,13 @@ deEl.addEventListener("dblclick", function () {
 })
 
 
+tabBtn.addEventListener("click",function(){
+    chrome.tabs.query({active:true,currentWindow:true},function(tabs){
+        myLead.push(tabs[0].url)
+        localStorage.setItem("myLead",JSON.stringify(myLead))
+        renderlist(myLead)
+    })
+})
 
 // localStorage.setItem("myLead", "www.google.com")
 // const as it is not going to be reassigned
