@@ -1,0 +1,12 @@
+nav,ul{
+    /* background-color: red;\
+     */
+    display: flex;
+    gap: 34px;
+    padding: 24px;
+
+}
+
+li{
+    list-style: none;
+}

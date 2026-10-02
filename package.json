@@ -1,5 +1,29 @@
 {
   "dependencies": {
-    "prompt-sync": "^4.2.0"
-  }
+    "@tailwindcss/cli": "^4.1.18",
+    "expres": "^0.0.5",
+    "express": "^5.2.1",
+    "node": "^20.19.6",
+    "prompt-sync": "^4.2.0",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.3.0"
+  },
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000W\u0000E\u0000B\u0000D\u0000E\u0000V\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderninjai/WEBDEV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderninjai/WEBDEV/issues"
+  },
+  "homepage": "https://github.com/coderninjai/WEBDEV#readme",
+  "keywords": []
 }

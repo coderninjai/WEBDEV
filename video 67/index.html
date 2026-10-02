@@ -43,7 +43,10 @@
       </table>
       
     <script>
-        document.body.childNodes
+        document.body.firstElementChild.firstElementChild.style.backgroundColor= "red";
+        document.querySelectorAll(".box").forEach(box=>{
+            box.style.backgroundColor="blue";
+        });
     </script>
 </body>
 </html>

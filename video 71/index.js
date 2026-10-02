@@ -1,6 +1,5 @@
 document.querySelector(".container").innerText
-console.log(
-    document.querySelector(".container").outerHTML);
+console.log(document.querySelector(".container").outerHTML);
 document.querySelector(".box").getAttribute("style")
 document.querySelector(".box").setAttribute("style", "display:inline")
 document.querySelector(".box").attributes

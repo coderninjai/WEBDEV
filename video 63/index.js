@@ -16,7 +16,7 @@ console.log(arr)
 arr.push();
 arr.unshift();
 
-delete arr(4);
+delete arr[4];
 
 // a1.concat(a2,a3);
 

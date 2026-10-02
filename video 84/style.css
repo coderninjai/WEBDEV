@@ -1,13 +1,25 @@
-/* body{
-    background-color: rgb(209, 202, 202);
-    color: white;
-} */
 
+body{
+color: white;
+}
+*{
+    margin: 0;padding: 0;
+}
 
 .left{
     width: 25vw;
+    padding: 34px;
 }
 
 .right{
     width: 75vw;
 }
+
+.home ul li{
+    color: white    ;
+    display: flex;
+    list-style: none;
+    width: 14px;
+    gap:15px ;
+}
+

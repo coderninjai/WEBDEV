@@ -70,3 +70,4 @@ CreateCard("Introduction to Backend | Sigma Web Dev video #2", "CodeWithHarry", 
 
 CreateCard("Introduction to Backend | Sigma Web Dev video #2", "CodeWithHarry", 5000000, 7, "31:22", "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw")
        
+CreateCard("Introduction to Backend | Sigma Web Dev video #2", "CodeWithHarry", 10000, 7, "31:22", "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw")

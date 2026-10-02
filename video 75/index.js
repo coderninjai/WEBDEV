@@ -8,9 +8,7 @@ setTimeout(() => {
 setTimeout(() => {
     console.log("I am timout2")
 }, 0);
-
-console.log("the end")
-
+  
 
 
 const fn = () => {
@@ -24,7 +22,7 @@ const callback = (arg, fn) => {
 const loadScript = (src, callback) => {
     let sc = document.createElement("script");
     sc.src = src;
-    sc.onload = callback("Callback on me (get in the car)",fn)
+    sc.onload = callback("form up on me (get in the car)",fn)
     document.body.append(sc);
 }
 

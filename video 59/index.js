@@ -22,7 +22,7 @@ function assignFaultyOperation() {
 function operations(a, b) {
     assignFaultyOperation();
    
-    let result = eval(`${b}${operation}${c}`);
+    let result = eval(`${b}${operation}${c}`)
     console.log(result)
 }
 
